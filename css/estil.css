@@ -1,0 +1,76 @@
+.container{
+	width:100%;
+	border:1px solid black;
+}
+.cap{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:1em;
+}
+.contingut{
+
+}
+.menu{
+	float:left;
+	width:170px;
+}
+
+.menu ul{
+	list-style-type:none;
+	padding:1em;
+}
+.menu ul a{
+	text-decoration:none;
+	color:black;
+}
+
+.menu ul a:hover{
+	text-decoration:underline;
+	color:gray;
+}
+
+.article{
+	padding:1em;
+	overflow: hidden;
+	border-left:1px solid gray;
+	
+}
+.peu{
+	background-color:gray;
+	color:white;
+	text-align:center;
+	padding:1em;
+	font-family:"verdana";
+	font-size:0.8em;
+}
+.clear{
+	clear:both;
+}
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+tr{
+	height: 40px;
+}
+tr:hover{
+	background-color: Beige;
+}
+tr th{
+	background-color: Lavender;
+}
+.resum{
+	width: 500px;
+}
+.eliminar{
+	background-image: url(../resources/delete.png);
+	width: 24px;
+	height: 24px;
+}
+.modificar{
+	background-image: url(../resources/edit.png);
+	width: 24px;
+	height: 24px;
+}
